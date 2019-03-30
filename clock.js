@@ -1,4 +1,4 @@
-const clockContainer = document.getElementById('js-clock'),
+const clockContainer = document.getElementsByClassName('js-clock'),
     clockTitle = document.getElementsByTagName('h1')[0];
 
 function getTime() {
